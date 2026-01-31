@@ -65,6 +65,11 @@ The [arithmetic mean][arithmetic-mean] is defined as
 To use in Observable,
 
 ```javascript
+meankbn2 = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-meankbn2@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-meankbn2/tags). For example,
+
+```javascript
 meankbn2 = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-meankbn2@v0.1.0-umd/browser.js' )
 ```
 
@@ -77,7 +82,7 @@ var meankbn2 = require( 'path/to/vendor/umd/stats-meankbn2/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-meankbn2@v0.1.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-meankbn2@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -246,7 +251,7 @@ The method accepts the following options:
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-uniform@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-dtype@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-meankbn2@v0.1.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-meankbn2@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
