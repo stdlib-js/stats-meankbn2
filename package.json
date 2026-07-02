@@ -42,7 +42,7 @@
     "@stdlib/stats-base-ndarray-dmeankbn2": "^0.1.1",
     "@stdlib/stats-base-ndarray-meankbn2": "^0.1.1",
     "@stdlib/stats-base-ndarray-smeankbn2": "^0.1.1",
-    "@stdlib/types": "^0.4.3"
+    "@stdlib/types": "^0.5.1"
   },
   "devDependencies": {
     "@stdlib/array-zeros": "^0.2.3",
